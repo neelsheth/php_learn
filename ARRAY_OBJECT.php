@@ -16,9 +16,11 @@ class Check extends CI_Controller
         echo "<pre>";
         print_r($q2[0]['value']);
         $q3 = $q2[0]['value'];
+           //string to object not working
         //$myObject =json_decode($q3);
         echo "<pre>";
         print_r(var_dump($q3));
+     
 
 
 
